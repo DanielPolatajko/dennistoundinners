@@ -14,3 +14,8 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}

@@ -1,0 +1,23 @@
+{% extends 'dennistoundinners/base.html' %}
+{% load static %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="{% static 'dennistoundinners/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'dennistoundinners/css/menu.css' %}">
+{% endblock extra_head %}
+
+{% block content %}
+<div class="container-fluid vertical-center">
+    <div class="jumbotron mx-auto text-center pb-1" style="background: none">
+        <video width="600" height="450" autoplay controls>
+            <source src="{% static 'dennistoundinners/images/rickroll.mp4' %}" type="video/mp4">
+        </video>
+    </div>
+    <div class="jumbotron text-center mx-auto py-1 custom-subtext">
+        <h3>Wow. You really thought we'd give away all our secrets just like that huh?</h3><br>
+
+            <h3>Arrive promptly at 7pm at Flat 2/1, 3 Dunchattan Street, Dennistoun, dressed to the nines and ready to dine.</h3>
+    </div>
+</div>
+
+{% endblock content %}

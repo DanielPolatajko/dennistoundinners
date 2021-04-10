@@ -19,5 +19,5 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name='dennistoundinners/main.html'), name='main'),
-    path('menu/', TemplateView.as_view(template_name='dennistoundinners/menu.html')),
+    path('menu/', TemplateView.as_view(template_name='dennistoundinners/menu.html'), name='menu'),
 ]
