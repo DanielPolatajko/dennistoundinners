@@ -1,0 +1,26 @@
+{% extends 'dennistoundinners/base.html' %}
+{% load static %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="{% static 'dennistoundinners/css/main.css' %}">
+{% endblock extra_head %}
+
+{% block content %}
+<div class="container-fluid vertical-center">
+    <div class="jumbotron mx-auto text-center pb-1" style="background: none">
+        <img src="{% static 'dennistoundinners/images/ddslogo.png' %}" class="img-fluid d-block mx-auto" style="height: 200px">
+    </div>
+    <div class="jumbotron mx-auto text-center py-1 custom-banner" >
+        <h1><span class="circle-left"></span> Dennistoun Dinner Society</span><span class="circle-right"></span> </h1>
+    </div>
+    <div class="jumbotron text-center mx-auto py-1 custom-subtext">
+        <h3>You are cordially invited to the inaugural meeting of the Dennistoun Dinner Society.</h3><br>
+
+            <h3>Click below for the menu, evening agenda and further details.</h3>
+    </div>
+    <div class="jumbotron text-center mx-auto py-1 custom-button-box">
+        <button type="button" class="btn btn-dark custom-button">Enter</button>
+    </div>
+</div>
+
+{% endblock content %}

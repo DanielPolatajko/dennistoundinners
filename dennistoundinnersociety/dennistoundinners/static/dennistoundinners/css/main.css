@@ -1,0 +1,89 @@
+h1 {
+    font-family: 'Limelight';
+    color: #D4AF37;
+    font-size: 4.5rem;
+}
+
+h3 {
+    font-family: 'Limelight';
+    color: #D4AF37;
+}
+
+.custom-banner {
+    background: none;
+}
+
+.custom-subtext {
+    background: none;
+    max-width: 50%
+}
+
+.custom-button-box {
+    background: none
+}
+
+.custom-button {
+    font-family: 'Limelight';
+    font-size: 2rem;
+    color: #D4AF37;
+    background none;
+    border-color: #D4AF37;
+    height: 80px;
+    width: 150px
+}
+
+.circle-left {
+    background-color: #D4AF37;
+    border-color: none;
+    display: inline-block;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.circle-right {
+    background-color: #D4AF37;
+    border-color: none;
+    display: inline-block;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .custom-subtext {
+        max-width: 80%
+    }
+
+    .custom-banner {
+        max-width: 80%
+    }
+
+    h1 {
+        font-size: 5rem
+    }
+
+    h3 {
+        font-size: 3rem
+    }
+
+    .custom-button {
+        height: 100px;
+        width: 200px;
+        font-size: 3rem
+    }
+
+    .circle-left {
+        display: none;
+    }
+
+    .circle-right {
+        display: none;
+    }
+
+
+}
