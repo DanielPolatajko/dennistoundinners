@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Limelight';
     color: #D4AF37;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
 }
 
 h3 {
@@ -20,6 +20,10 @@ h3 {
 
 .custom-button-box {
     background: none
+}
+
+.custom-image {
+    height: 150px;
 }
 
 .custom-button {
@@ -83,6 +87,10 @@ h3 {
 
     .circle-right {
         display: none;
+    }
+
+    .custom-image {
+        height: 250px;
     }
 
 
